@@ -1,6 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./components/Body";
+import FileExplorer from "./components/FileExplorer";
 
 function App() {
   const router = createBrowserRouter([
@@ -10,7 +11,7 @@ function App() {
     },
     {
       path: "/file-explorer",
-      element: <div>File Explorer</div>,
+      element: <FileExplorer />,
     },
   ]);
   return <RouterProvider router={router}></RouterProvider>;
