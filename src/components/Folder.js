@@ -43,8 +43,8 @@ const Folder = ({ folder }) => {
           File +
         </button>
       </div>
-      {showInput != "" && (
-        <div className="ml-4">
+      {showInput !== "" && (
+        <div className="ml-4 mt-2">
           <span>{showInput === "folder" ? "🗂️" : "🗄️"}</span>
           <input
             onKeyUp={handleKeyUp}
