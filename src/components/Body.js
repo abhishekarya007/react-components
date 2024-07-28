@@ -17,7 +17,14 @@ const Body = () => {
         >
           File Explorer
         </button>
-        <button className={buttonCss}>Progress Bar</button>
+        <button
+          onClick={() => {
+            navigate("/progress-bar");
+          }}
+          className={buttonCss}
+        >
+          Progress Bar
+        </button>
       </div>
     </div>
   );
