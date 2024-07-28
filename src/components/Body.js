@@ -25,6 +25,14 @@ const Body = () => {
         >
           Progress Bar
         </button>
+        <button
+          onClick={() => {
+            navigate("/grid-lights");
+          }}
+          className={buttonCss}
+        >
+          Grid Lights
+        </button>
       </div>
     </div>
   );
