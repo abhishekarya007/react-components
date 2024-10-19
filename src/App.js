@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./components/Body";
 import FileExplorer from "./components/FileExplorer";
 import ProgressBar from "./components/ProgressBar";
-import GridLights from "./components/GridLights";
+import GridLightsOp from "./components/GridLightsOp";
 
 function App() {
   const router = createBrowserRouter([
@@ -21,7 +21,7 @@ function App() {
     },
     {
       path: "/grid-lights",
-      element: <GridLights />,
+      element: <GridLightsOp />,
     },
   ]);
   return <RouterProvider router={router}></RouterProvider>;

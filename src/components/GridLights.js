@@ -8,7 +8,6 @@ const GridLights = () => {
   };
 
   useEffect(() => {
-    console.log(stack);
     if (stack.length === 8) {
       let a = setInterval(() => {
         if (stack.length === 0) {
