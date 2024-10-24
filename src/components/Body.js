@@ -33,6 +33,14 @@ const Body = () => {
         >
           Grid Lights
         </button>
+        <button
+          onClick={() => {
+            navigate("/emi-calc");
+          }}
+          className={buttonCss}
+        >
+          Emi Calc
+        </button>
       </div>
     </div>
   );
