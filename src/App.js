@@ -5,6 +5,7 @@ import FileExplorer from "./components/FileExplorer";
 import ProgressBar from "./components/ProgressBar";
 import GridLightsOp from "./components/GridLightsOp";
 import EmiCalc from "./components/EmiCalc";
+import PasswordGenerator from "./components/PasswordGene";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +28,10 @@ function App() {
     {
       path: "/emi-calc",
       element: <EmiCalc />,
+    },
+    {
+      path: "/password-generator",
+      element: <PasswordGenerator />,
     },
   ]);
   return <RouterProvider router={router}></RouterProvider>;

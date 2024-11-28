@@ -41,6 +41,14 @@ const Body = () => {
         >
           Emi Calc
         </button>
+        <button
+          onClick={() => {
+            navigate("/password-generator");
+          }}
+          className={buttonCss}
+        >
+          Password Generator
+        </button>
       </div>
     </div>
   );
